@@ -7,19 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1120F14825E56C950079C021 /* NBA_Player_FunApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1120F14725E56C950079C021 /* NBA_Player_FunApp.swift */; };
 		1120F14A25E56C950079C021 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1120F14925E56C950079C021 /* ContentView.swift */; };
 		1120F14C25E56C970079C021 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1120F14B25E56C970079C021 /* Assets.xcassets */; };
 		1120F14F25E56C970079C021 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1120F14E25E56C970079C021 /* Preview Assets.xcassets */; };
+		F3E8AD5725E8056C00BB207A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E8AD5625E8056C00BB207A /* AppDelegate.swift */; };
+		F3E8AD5A25E8058400BB207A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E8AD5925E8058400BB207A /* SceneDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1120F14425E56C950079C021 /* NBA Player Fun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NBA Player Fun.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1120F14725E56C950079C021 /* NBA_Player_FunApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NBA_Player_FunApp.swift; sourceTree = "<group>"; };
 		1120F14925E56C950079C021 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1120F14B25E56C970079C021 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1120F14E25E56C970079C021 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1120F15025E56C970079C021 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3E8AD5625E8056C00BB207A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F3E8AD5925E8058400BB207A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,11 +54,12 @@
 		1120F14625E56C950079C021 /* NBA Player Fun */ = {
 			isa = PBXGroup;
 			children = (
-				1120F14725E56C950079C021 /* NBA_Player_FunApp.swift */,
 				1120F14925E56C950079C021 /* ContentView.swift */,
 				1120F14B25E56C970079C021 /* Assets.xcassets */,
 				1120F15025E56C970079C021 /* Info.plist */,
 				1120F14D25E56C970079C021 /* Preview Content */,
+				F3E8AD5625E8056C00BB207A /* AppDelegate.swift */,
+				F3E8AD5925E8058400BB207A /* SceneDelegate.swift */,
 			);
 			path = "NBA Player Fun";
 			sourceTree = "<group>";
@@ -138,8 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3E8AD5725E8056C00BB207A /* AppDelegate.swift in Sources */,
 				1120F14A25E56C950079C021 /* ContentView.swift in Sources */,
-				1120F14825E56C950079C021 /* NBA_Player_FunApp.swift in Sources */,
+				F3E8AD5A25E8058400BB207A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
