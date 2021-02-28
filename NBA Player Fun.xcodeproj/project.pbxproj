@@ -12,6 +12,8 @@
 		1120F14F25E56C970079C021 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1120F14E25E56C970079C021 /* Preview Assets.xcassets */; };
 		11E07FC225E90BBE00399DD0 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E07FC125E90BBD00399DD0 /* Player.swift */; };
 		11E07FC525EB7CF800399DD0 /* StatText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E07FC425EB7CF800399DD0 /* StatText.swift */; };
+		11E07FC825EC081700399DD0 /* PlayerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E07FC725EC081600399DD0 /* PlayerRow.swift */; };
+		11E07FCB25EC10A600399DD0 /* PlayerList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E07FCA25EC10A600399DD0 /* PlayerList.swift */; };
 		F3E8AD5725E8056C00BB207A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E8AD5625E8056C00BB207A /* AppDelegate.swift */; };
 		F3E8AD5A25E8058400BB207A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E8AD5925E8058400BB207A /* SceneDelegate.swift */; };
 /* End PBXBuildFile section */
@@ -24,6 +26,8 @@
 		1120F15025E56C970079C021 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		11E07FC125E90BBD00399DD0 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Player.swift; path = "Player Info 2/Player.swift"; sourceTree = SOURCE_ROOT; };
 		11E07FC425EB7CF800399DD0 /* StatText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatText.swift; sourceTree = "<group>"; };
+		11E07FC725EC081600399DD0 /* PlayerRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerRow.swift; sourceTree = "<group>"; };
+		11E07FCA25EC10A600399DD0 /* PlayerList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerList.swift; sourceTree = "<group>"; };
 		F3E8AD5625E8056C00BB207A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F3E8AD5925E8058400BB207A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -66,6 +70,8 @@
 				F3E8AD5625E8056C00BB207A /* AppDelegate.swift */,
 				F3E8AD5925E8058400BB207A /* SceneDelegate.swift */,
 				11E07FC425EB7CF800399DD0 /* StatText.swift */,
+				11E07FC725EC081600399DD0 /* PlayerRow.swift */,
+				11E07FCA25EC10A600399DD0 /* PlayerList.swift */,
 			);
 			path = "NBA Player Fun";
 			sourceTree = "<group>";
@@ -152,6 +158,8 @@
 				1120F14A25E56C950079C021 /* ContentView.swift in Sources */,
 				F3E8AD5A25E8058400BB207A /* SceneDelegate.swift in Sources */,
 				11E07FC525EB7CF800399DD0 /* StatText.swift in Sources */,
+				11E07FCB25EC10A600399DD0 /* PlayerList.swift in Sources */,
+				11E07FC825EC081700399DD0 /* PlayerRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
