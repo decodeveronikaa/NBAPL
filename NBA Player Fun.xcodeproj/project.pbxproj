@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1120F14A25E56C950079C021 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1120F14925E56C950079C021 /* ContentView.swift */; };
+		1120F14A25E56C950079C021 /* PlayerDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1120F14925E56C950079C021 /* PlayerDetail.swift */; };
 		1120F14C25E56C970079C021 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1120F14B25E56C970079C021 /* Assets.xcassets */; };
 		1120F14F25E56C970079C021 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1120F14E25E56C970079C021 /* Preview Assets.xcassets */; };
 		11E07FC225E90BBE00399DD0 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E07FC125E90BBD00399DD0 /* Player.swift */; };
@@ -20,7 +20,7 @@
 
 /* Begin PBXFileReference section */
 		1120F14425E56C950079C021 /* NBA Player Fun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NBA Player Fun.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1120F14925E56C950079C021 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1120F14925E56C950079C021 /* PlayerDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerDetail.swift; sourceTree = "<group>"; };
 		1120F14B25E56C970079C021 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1120F14E25E56C970079C021 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1120F15025E56C970079C021 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -63,7 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				11E07FC125E90BBD00399DD0 /* Player.swift */,
-				1120F14925E56C950079C021 /* ContentView.swift */,
+				1120F14925E56C950079C021 /* PlayerDetail.swift */,
 				1120F14B25E56C970079C021 /* Assets.xcassets */,
 				1120F15025E56C970079C021 /* Info.plist */,
 				1120F14D25E56C970079C021 /* Preview Content */,
@@ -155,7 +155,7 @@
 			files = (
 				11E07FC225E90BBE00399DD0 /* Player.swift in Sources */,
 				F3E8AD5725E8056C00BB207A /* AppDelegate.swift in Sources */,
-				1120F14A25E56C950079C021 /* ContentView.swift in Sources */,
+				1120F14A25E56C950079C021 /* PlayerDetail.swift in Sources */,
 				F3E8AD5A25E8058400BB207A /* SceneDelegate.swift in Sources */,
 				11E07FC525EB7CF800399DD0 /* StatText.swift in Sources */,
 				11E07FCB25EC10A600399DD0 /* PlayerList.swift in Sources */,
