@@ -13,7 +13,7 @@ struct PlayerList: View {
         List(players) {
             currentPlayer in
             NavigationLink(destination: PlayerDetail(player: currentPlayer)){
-            PlayerRow(player: currentPlayer).frame(height: 80)
+            PlayerRow(player: currentPlayer).frame(height: 55)
             }
         }.navigationBarTitle(Text("NBA Finals Players"))
     }

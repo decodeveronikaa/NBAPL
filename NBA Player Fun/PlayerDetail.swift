@@ -30,8 +30,8 @@ struct ContentView_Previews: PreviewProvider {
         
         Group{
             PlayerDetail(player: players[3]).previewDevice("iPhone 8")
-            PlayerDetail(player: players[3]).previewDevice("iPhone 11 Pro Max")
-            PlayerDetail(player: players[3]).previewDevice("iPhone 11")
+            PlayerDetail(player: players[3]).previewDevice("iPhone 12 Pro Max")
+            PlayerDetail(player: players[3]).previewDevice("iPhone SE")
     }
 }
 }
